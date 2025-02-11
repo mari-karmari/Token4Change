@@ -8,5 +8,21 @@
 </head>
 <body>
     <h1>Hello</h1>
+<?php
+
+
+$val1 = 5;
+$val2 = 10;
+
+$result = $val1 + $val2; 
+
+echo $result;
+
+
+
+?>
+
+
+
 </body>
 </html>
