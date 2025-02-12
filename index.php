@@ -8,19 +8,20 @@
 </head>
 <body>
     <h1>Hello</h1>
+    <nav class="main_navi">
+
 <?php
 
-
-$val1 = 5;
-$val2 = 10;
-
-$result = $val1 + $val2; 
-
-echo $result;
-
-
-
+if ($_GET['page'] == 1) {
+    echo "
+    <a class='active' href='index.php?page=1'>Home</a>
+    <a class='' href='index.php?page=2'>About me</a>
+    <a class='' href='index.php?page=3'>Shop</a>
+    ";
+    require_once 'page1.php';
+}
 ?>
+</nav>
 
 
 
